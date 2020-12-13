@@ -11,6 +11,7 @@
 
     <properties>
         <start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
     </properties>
 
     <artifactId>pet-clinic-data</artifactId>
@@ -52,9 +53,6 @@
                         <goals>
                             <goal>repackage</goal>
                         </goals>
-                        <configuration>
-                            <skip>true</skip>
-                        </configuration>
                     </execution>
                 </executions>
             </plugin>
