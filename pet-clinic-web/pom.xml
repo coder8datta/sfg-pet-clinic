@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>sfg-pet-clinic</artifactId>
         <groupId>guru.springframework</groupId>
         <version>0.0.7-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
+        <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <project.scm.id>git_scm_id</project.scm.id>
+    </properties>
+
 
     <artifactId>pet-clinic-web</artifactId>
 
@@ -41,8 +49,7 @@
         </dependency>
     </dependencies>
 
-
-  <scm>
-    <tag>sfg-pet-clinic-0.0.3</tag>
-  </scm>
+    <scm>
+        <developerConnection>scm:git:https://github.com/coder8datta/sfg-pet-clinic.git</developerConnection>
+    </scm>
 </project>

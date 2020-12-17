@@ -10,6 +10,7 @@
     <properties>
         <start-class>guru.springframework.sfgpetclinic.SfgPetClinicApplication</start-class>
         <spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+        <project.scm.id>git_scm_id</project.scm.id>
     </properties>
 
     <artifactId>pet-clinic-data</artifactId>
@@ -58,8 +59,7 @@
         </plugins>
     </build>
 
-
-  <scm>
-    <tag>sfg-pet-clinic-0.0.3</tag>
-  </scm>
+    <scm>
+        <developerConnection>scm:git:https://github.com/coder8datta/sfg-pet-clinic.git</developerConnection>
+    </scm>
 </project>
